@@ -1,0 +1,228 @@
+/* base.css - Minimal Open Source Maintainer Theme */
+
+.root {
+    -fx-font-family: "Iosevka Term", "SF Mono", "Menlo", "Consolas", monospace;
+    -fx-padding: 0;
+    -fx-font-size: 13px;
+}
+
+/* Titles */
+.dashboard-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 8 0;
+}
+
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 0;
+}
+
+/* Stats Cards */
+.stats-card {
+    -fx-background-radius: 0;
+    -fx-border-width: 1;
+    -fx-min-width: 160px;
+    -fx-pref-width: 180px;
+    -fx-pref-height: 110px;
+    -fx-padding: 20;
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 4;
+}
+
+.stats-card-title {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+}
+
+.stats-card-value {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+}
+
+.stats-card-subtitle {
+    -fx-font-size: 10px;
+}
+
+/* Quick Actions */
+.quick-action {
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-width: 1;
+    -fx-min-width: 160px;
+    -fx-pref-width: 180px;
+    -fx-pref-height: 80px;
+    -fx-padding: 16 20;
+    -fx-cursor: hand;
+    -fx-spacing: 6;
+}
+
+.quick-action-title {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.quick-action-desc {
+    -fx-font-size: 11px;
+    -fx-wrap-text: true;
+}
+
+/* Sidebar */
+.sidebar {
+    -fx-padding: 20;
+    -fx-spacing: 8;
+}
+
+.sidebar-welcome-label {
+    -fx-font-size: 10px;
+    -fx-text-transform: uppercase;
+}
+
+.sidebar-username-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.sidebar-role-label {
+    -fx-font-size: 11px;
+}
+
+.sidebar-menu-button {
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 12 16;
+    -fx-font-size: 13px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+}
+
+.sidebar-separator {
+    -fx-padding: 12 0;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-width: 1;
+}
+
+.table-view .column-header {
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+    -fx-padding: 8 12;
+}
+
+.table-view .column-header-background {
+    -fx-background-radius: 0;
+}
+
+.table-view .table-cell {
+    -fx-font-size: 12px;
+    -fx-padding: 10 12;
+}
+
+.table-view .filler {
+    -fx-background-color: transparent;
+}
+
+/* Buttons */
+.button {
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 10 20;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-border-width: 1;
+}
+
+.button-primary {
+    -fx-font-weight: bold;
+}
+
+/* Text Fields */
+.text-field, .text-area, .password-field {
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 10 12;
+    -fx-font-size: 13px;
+    -fx-border-width: 1;
+}
+
+.text-area {
+    -fx-padding: 10;
+}
+
+/* Combo Box */
+.combo-box {
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-font-size: 12px;
+    -fx-padding: 4 8;
+    -fx-border-width: 1;
+}
+
+.combo-box .arrow-button {
+    -fx-background-radius: 0;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 13px;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+    -fx-padding: 32;
+}
+
+/* Form layouts */
+.form-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 4 0;
+}
+
+/* Scroll Pane */
+.scroll-pane {
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
+.scroll-pane .viewport {
+    -fx-background-radius: 0;
+}
+
+/* Dialog */
+.dialog-pane {
+    -fx-background-radius: 0;
+    -fx-padding: 24;
+}
+
+.dialog-pane .header-panel {
+    -fx-padding: 16 24;
+}
+
+.dialog-pane .content {
+    -fx-padding: 16 0;
+}
+
+/* Toolbar */
+.toolbar {
+    -fx-padding: 8 0 16 0;
+    -fx-spacing: 8;
+}
+
+/* Alert dialogs */
+.alert {
+    -fx-background-radius: 0;
+}
+
+/* Separator */
+.separator {
+    -fx-padding: 8 0;
+}
