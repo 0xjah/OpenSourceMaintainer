@@ -34,6 +34,10 @@ mysql -u root < db/maintainer.sql
 | admin    | admin    | Admin      |
 | user     | user     | Maintainer |
 
+## Entity Relationship Diagram (ERD)
+
+![ERD](resources/IMG_5753.jpeg)
+
 ## Project Structure
 
 ```
